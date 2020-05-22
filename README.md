@@ -1,7 +1,6 @@
 # Sopt 3차 세미나 과제
 
 ## ✔Screenshot
----
 
 <div>
 <img src = "https://user-images.githubusercontent.com/37900920/82637582-0b523b80-9c40-11ea-8348-0d9ac41ff3df.gif">
