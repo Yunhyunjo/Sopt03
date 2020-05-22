@@ -31,7 +31,7 @@
 ### 2.Response 객체 설계
   
 ==> 서버에게 받을 데이터 객체로 마찬가지고 API문서를 보고 설계한다. 서버에서 정한 변수 말고직접 변수명을 정의하고   
-싶다면 밑에 코드와 같이 __@SerializedName(" ")__ 이렇게 하면 된다.  
+싶다면 밑에 코드와 같이 __@SerializedName(" ")__ 이렇게 ""안에 서버에서의 변수명을 써주고 그 밑에 새로 정해주면 된다.  
     
     data class ResponseLogin( 
       val status : Int, 
