@@ -12,5 +12,4 @@ object RequestToSever {
 
     var service: RequestInteface = retrofit.create(RequestInteface::class.java)
     var service2: RequestRegisterInteface = retrofit.create(RequestRegisterInteface::class.java)
-    var service3: RequestBookInteface = retrofit.create(RequestBookInteface::class.java)
 }

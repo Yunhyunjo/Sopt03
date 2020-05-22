@@ -1,9 +1,10 @@
-package com.example.sopt03
+package com.example.sopt03.recycler
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sopt03.R
 import com.example.sopt03.data.InstaData
 
 class InstaAdapter(private val context : Context) : RecyclerView.Adapter<InstaViewHolder>() {

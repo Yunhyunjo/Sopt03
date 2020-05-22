@@ -1,4 +1,4 @@
-package com.example.sopt03
+package com.example.sopt03.fragment
 
 
 import android.os.Bundle
@@ -6,9 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.sopt03.data.BookData
+import com.example.sopt03.recycler.BookAdapter
+import com.example.sopt03.R
+import com.example.sopt03.customEnqueue
 import com.example.sopt03.data.BookDatas
 import com.example.sopt03.network.RequestToBook
+import com.example.sopt03.showToast
 import kotlinx.android.synthetic.main.fragment_library.*
 
 class LibraryFragment : Fragment() {
